@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>Assignement2</title>
+    <link rel="stylesheet" type="text/css" href="assignment2.css">
+</head>
+
+<body>
+    <div id="output">
+        <table>
+            <tr>
+                <td>
+                    <Label>First Name</Label>
+                </td>
+                <td><input type="text" id="firstName" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <Label>Last Name</Label>
+                </td>
+                <td><input type="text" id="lastName" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <Label>Phone Number</Label>
+                </td>
+                <td><input type="text" id="phoneNumber" /></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Display" onclick="display()" /></td>
+                <td></td>
+            </tr>
+
+        </table>
+    </div>
+
+    <script>
+        function display() {
+            var firstName = document.getElementById("firstName").value;
+            var lastName = document.getElementById("lastName").value;
+            var phoneNumber = document.getElementById("phoneNumber").value;
+            var output = "<table id=table><thead><tr><td>First Name</td><td>Last Name</td><td>Phone Number</td></tr></thead>";
+            output += "<tbody><tr><td>" + firstName + "</td><td>" + lastName + "</td><td>" + phoneNumber + "</td></tr></tbody></table>";
+            document.getElementById("output").innerHTML = output;
+        }
+    </script>
+</body>
+
+</html>
