@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="assignment1.css">
+</head>
+
+<body>
+    <h1>Login</h1>
+    <form>
+        <table id="table">
+            <tr>
+                <td><label>Username</label></td>
+                <td><input type="text" id="username" pattern="[a-zA-Z0-9 ]+" title="Only alphanumeric characters and spaces are allowed"
+                        required/></td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td><input type="password" id="password" required/></td>
+            </tr>
+            <tr>
+                <td id="submit"><input type="submit" value="Login" /></td>
+                <td id="reset"><input type="reset"></td>
+            </tr>
+        </table>
+    </form>
+    <div id="audio">
+        <h2>Audio</h2>
+        <audio controls>
+            <source src="SampleAudio_0.4mb.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <div id="video">
+        <h2>Video</h2>
+        <video width="320" height="240" controls>
+            <source src="SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+        </video>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+body
+{
+background-color:rgb(208, 255, 181);
+}
+img
+{
+float:right;
+}
+h1
+{
+text-align:center;
+color:MediumVioletRed;
+}
+h2
+{
+color:DarkRed;
+}
+#div1
+{
+border:2px pink solid;
+}
+#div2
+{
+border:2px Cornsilk solid;
+}
+#div3
+{
+border:2px aqua solid;
+}
+#table
+{
+margin: 0 auto;
+}
+table, th, td {
+   border: 1px solid black;
+}
+th
+{
+background-color:Cyan;
+}
+#tr1
+{
+background-color:MistyRose;
+}
+#tr2
+{
+background-color:MintCream;
+}
+#tr3
+{
+background-color:LightCyan;
+}
+#submit
+{
+text-align:center;
+}
+#reset
+{
+text-align:center;
+}
+#date
+{
+    width:97%;
+}
+
