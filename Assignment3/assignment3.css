@@ -1,0 +1,60 @@
+body
+{
+background-color:rgb(208, 255, 181);
+}
+h1{
+    text-align: center;
+    color:MediumVioletRed;
+}
+h2{
+    text-align: center;
+    color:blueviolet;
+}
+#main{
+    margin: 0;
+}
+#left{
+    float:left;
+    width:24%;
+    height:100%;
+    overflow:hidden;
+    border: solid black;
+}
+#right{
+    float:left;
+    width:75%;
+    height:100%;
+    overflow:hidden;
+    border: solid black;
+}
+#register,#login,#balance{
+    text-align: center;
+    border:2px Cyan solid;
+}
+#welcome{
+    text-align: center;
+    color:pink;
+}
+#table
+{
+margin: 0 auto;
+}
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid pink;
+}
+#submit
+{
+text-align:center;
+}
+#reset
+{
+text-align:center;
+}
+#date
+{
+    width:100%;
+}
+#noBorder{
+    border: 1px solid rgb(208, 255, 181);
+}

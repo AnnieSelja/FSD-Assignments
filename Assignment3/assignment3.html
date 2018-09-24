@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>XYZ Bank</title>
+    <link rel="stylesheet" type="text/css" href="assignment3.css">
+    <!--<script type="text/javascript" src=" jquery-1.6.1.min.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <script type="text/javascript" language="javascript">
+            $(document).ready(function () {
+                $('#register').click(function(){
+                    $('#right').load("Registration.html");
+                })
+                $('#login').click(function(){
+                    $('#right').load("Login.html");
+                })
+                $('#balance').click(function()
+                {
+                    $('#right').css("background-color","pink");
+                    $('#right').html('<h2>Your account balance is Rs.30000</h2>');
+                })
+            });
+        </script>
+</head>
+
+<body>
+    <div id="main">
+        <h1>XYZ Bank</h1>
+        <div id="left">
+            <div id="register">
+                <b>Register</b>
+            </div>
+            <div id="login">
+                <b>Login</b>
+            </div>
+            <div id="balance">
+                <b>Balance</b>
+            </div>
+        </div>
+        <div id="right">
+            <h2 id="welcome">Welcome to XYZ Bank's NetBanking</h2>
+        </div>
+    </div>
+</body>
+
+</html>
