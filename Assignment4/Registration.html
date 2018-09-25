@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Registration</title>
+  <link rel="stylesheet" type="text/css" href="assignment4.css">
+</head>
+
+<body>
+  <h1>Registration</h1>
+  <form>
+    <table id="table">
+      <tr>
+        <td><label>Name</label></td>
+        <td><input type="text" id="name" pattern="[a-zA-Z ]+" title="Only alphabets and spaces are allowed" required/></td>
+      </tr>
+      <tr>
+        <td><label>Email</label></td>
+        <td><input type="text" id="email" pattern="[a-zA-Z]+@[a-z]+.[[a-z]+" title="abc@gmail.com" required/></td>
+      </tr>
+      <tr>
+        <td><label>Phone Number</label></td>
+        <td><input type="text" id="phone" pattern="[6-9]{1}[0-9]{9}" title="9876543210" required/></td>
+      </tr>
+      <tr>
+        <td><label>Date of Birth</label></td>
+        <td><input type="date" id="date" required/></td>
+      </tr>
+      <tr>
+        <td><label>Gender</label></td>
+        <td><input type="radio" name="gender" value="male" checked> Male<br>
+          <input type="radio" name="gender" value="female"> Female<br>
+        </td>
+      </tr>
+      <tr>
+        <tr>
+          <td><label>PAN</label></td>
+          <td><input type="text" id="pan" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}" title="ABCDE1234F" required/></td>
+        </tr>
+        <tr>
+          <td id="submit"><input type="submit" value="Register" /></td>
+          <td id="reset"><input type="reset"></td>
+        </tr>
+    </table>
+  </form>
+</body>
+
+</html>

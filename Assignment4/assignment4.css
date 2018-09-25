@@ -1,0 +1,27 @@
+body
+{
+background-color:rgb(208, 255, 181);
+}
+h1{
+    text-align: center;
+    color:MediumVioletRed;
+}
+#table
+{
+margin: 0 auto;
+}
+table, th, td {
+   border: 1px solid black;
+}
+#submit
+{
+text-align:center;
+}
+#reset
+{
+text-align:center;
+}
+#date
+{
+    width:97%;
+}
